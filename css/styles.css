@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,700;0,900;1,500&display=swap');
+
+*{
+    font-family: "Red Hat Display";
+}
+
+body{
+    background-color: #ddd;
+}
+
+/* .flex{
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ */
+.order-card{
+    width: 320px;
+
+    margin: 70px auto;
+
+    background-color: white;
+    border-radius: 20px;
+
+    text-align: center;
+}
+
+.order-card__header{
+    width: 100%;
+}
+
+.order-card__hero{
+    width: 100%;
+
+    border-radius: 20px 20px 0 0;
+}
+
+.order-card__body{
+    padding: 30px;
+}
+
+.order-card__title{
+    margin-bottom: 30px;
+
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.order-card__text{
+    line-height: 25px;
+
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+}
+
+.order-card__flex{
+    height: auto;
+    width: 100%;
+
+    margin: 40px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.order-card__plan{
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+.order-card__name{
+    margin-bottom: 5px;
+
+    font-size: 14px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.order-card__price{
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+}
+
+.order-card__link{
+    text-decoration: underline;
+
+    font-size: 14px;
+}
+
+.button{
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+}
+
+.button--blue{
+    width: 100%;
+
+    margin-bottom: 20px;
+    padding: 15px;
+
+    display: block;
+
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+
+    color: white;
+}
+
